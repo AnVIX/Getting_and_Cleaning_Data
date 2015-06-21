@@ -3,7 +3,6 @@
 For the Human Activity Recognition Using Smartphones tidy dataset `MergedAvg` created by the **run_analysis.R** script.
 
 ####**I. Raw data files**
----------------------
 
 Data files employed to create `MergedAvg` available from the unzipped raw dataset folder 'UCI HAR Dataset'.
 
@@ -24,7 +23,6 @@ In addition, files 'README.txt' and 'features_info.txt' were used to infer infer
 
   
 ####**II. Notes on summaries and nomenclature**
-----------------------------------------------
 
 * **Summaries**
     * Variables [3:68]: are averaged, as mean values, for each subject and each activity.
@@ -35,14 +33,12 @@ In addition, files 'README.txt' and 'features_info.txt' were used to infer infer
     
   
 ####**III. Variables units**
-----------------------------
 
 * Variables [1:2]: categorical 
 * Variables [3:68]: normalized and bounded within [-1,1]
    
     
-####**VI. Variables dictionnary**  
--------------------------------- 
+####**VI. Variables dictionnary**   
   
 1. **Subject**
 

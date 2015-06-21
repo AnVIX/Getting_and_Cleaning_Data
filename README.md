@@ -43,15 +43,14 @@ In summary, the script:
 * Reads the data files of interest using the custom-defined fpathr() function.
 * Processes the raw data:
 
-
 1. Labels each measurements sub-set (Training,Test) variables with descriptive names: 
     i. Uses the variables (features) names defined in the raw data.
-    i. Ensures variables names are legally-compliant with [R syntax standards](https://stat.ethz.ch/R-manual/R-devel/library/base/html/make.names.html) and corrects for misspelled names. 
+    ii. Ensures variables names are legally-compliant with [R syntax standards](https://stat.ethz.ch/R-manual/R-devel/library/base/html/make.names.html) and corrects for misspelled names. 
 1. Subsets each measurements set (Training,Test) to retain only the 'mean()' and 'std()' variables or features estimated from the signals. 
 1. Merges the two sub-sets (Training,Test) to form one data set,`Merged`: 
     i. Combines Subject identifiers and Activity labels for each sub-set (Training,Test) to preserve data integrity.
-    i. Combines each sub-set (Training,Test) data with its associated (Subjects, Activity labels) table as reconstructed in ii.
-    i. Merges the Training and Test tables obtained above.
+    ii. Combines each sub-set (Training,Test) data with its associated (Subjects, Activity labels) table as reconstructed in ii.
+    iii. Merges the Training and Test tables obtained above.
 1. Labels the Activity variable with descriptive names.
 1. Creates a second, independent tidy dataset, `MergedAvg`, based on the average -- the arithmetic [mean()](https://stat.ethz.ch/R-manual/R-devel/library/base/html/mean.html) -- of each variable for each subject and each activity. 
 
