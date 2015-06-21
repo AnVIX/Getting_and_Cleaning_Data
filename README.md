@@ -40,7 +40,7 @@ run_analysis.R
 In summary, the script:
 
 * Downloads the raw dataset archive (.zip) file to the local working directory.
-* Reads the data files of interest using the custom-defined fpathr() function.
+* Reads the data files of interest using the custom-defined fpathr() function. 
 * Processes the raw data:
 
 1. Labels each measurements sub-set (Training,Test) variables with descriptive names: 
