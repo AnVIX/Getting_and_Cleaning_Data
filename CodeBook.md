@@ -2,9 +2,7 @@
 ##Code Book
 For the Human Activity Recognition Using Smartphones tidy dataset `MergedAvg` created by the **run_analysis.R** script.
 
----
-
-###**I. Raw data files**
+####**I. Raw data files**
 ---------------------
 
 Data files employed to create `MergedAvg` available from the unzipped raw dataset folder 'UCI HAR Dataset'.
@@ -25,7 +23,7 @@ Data files employed to create `MergedAvg` available from the unzipped raw datase
 In addition, files 'README.txt' and 'features_info.txt' were used to infer infer information about the raw dataset measurements, files structure, and variables. 
 
   
-###**II. Notes on summaries and nomenclature**
+####**II. Notes on summaries and nomenclature**
 ----------------------------------------------
 
 * **Summaries**
@@ -43,8 +41,8 @@ In addition, files 'README.txt' and 'features_info.txt' were used to infer infer
 * Variables [3:68]: normalized and bounded within [-1,1]
    
     
-**VI. Variables dictionnary**  
-  
+####**VI. Variables dictionnary**  
+-------------------------------- 
   
 1. **Subject**
 
