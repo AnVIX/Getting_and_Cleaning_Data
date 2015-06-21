@@ -5,6 +5,7 @@ For the Human Activity Recognition Using Smartphones tidy dataset `MergedAvg` cr
 ---
 
 **I. Raw data files**
+---------------------
 
 Data files employed to create `MergedAvg` available from the unzipped raw dataset folder 'UCI HAR Dataset'.
 
@@ -23,7 +24,6 @@ Data files employed to create `MergedAvg` available from the unzipped raw datase
     
 In addition, files 'README.txt' and 'features_info.txt' were used to infer infer information about the raw dataset measurements, files structure, and variables. 
 
----
   
 **II. Notes on summaries and nomenclature**
 
@@ -33,17 +33,14 @@ In addition, files 'README.txt' and 'features_info.txt' were used to infer infer
     * "body" designates the volunteer person physical body. 
     * "FFT"  designates the Fast Fourier Transform.
     * "X (or Y,Z) direction" designates the X axial direction.
-   
----    
+    
   
 **III. Variables units**
 
 * Variables [1:2]: categorical 
 * Variables [3:68]: normalized and bounded within [-1,1]
    
----    
-  
-  
+    
 **VI. Variables dictionnary**  
   
   

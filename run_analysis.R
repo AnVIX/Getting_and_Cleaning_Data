@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------#
 # R script to process the Human Activity Recognition Using Smartphones Dataset, HARUS.
 # Returns:    'MergedAvg.txt' -- table of the tidy dataset 'MergedAvg' described in 'README.md'
-# Execution:  source("run_analysis.R")
+# Execution:  source("run_analysis.R") 
 # Description of 'MergedAvg' variables is provided in the 'CodeBook.md' Code Book.
 # Raw data source: UCI Maching Learning Repository
 #             URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
@@ -11,10 +11,10 @@
 library(dplyr)
 
 ### *. Download data to local directory
-#fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#zipFile <- "HARUS.zip"
-#download.file(fileURL, destfile = zipFile)
-#unzip(zipFile, exdir = ".")
+fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+zipFile <- "HARUS.zip"
+download.file(fileURL, destfile = zipFile)
+unzip(zipFile, exdir = ".")
 data.dir <- "UCI HAR Dataset"
 
 

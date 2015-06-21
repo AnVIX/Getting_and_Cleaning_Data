@@ -6,6 +6,8 @@ Date: Friday, June 19, 2015
 
 **Project summary**: collect and process the [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#) database to create the tidy dataset `MergedAvg`. The raw data is available from the University of California, Irvine, [UCI, Machine Learning Repository](http://archive.ics.uci.edu/ml/). Data processing is achieved by means of the **run_analysis.R** script while **CoodBook.md** serves as a detailed Code Book for `MergedAvg`.
 
+---
+
 ### Repository table of contents
 
 * **README.md** (this file)
@@ -31,7 +33,6 @@ The principles applied here to prepare `MergedAvg` were discussed in the Journal
 * Each row provides a different observation of that variable.
 * The table produces only one "kind" of variables (features estimated from signals). 
 
------
 
 run_analysis.R
 --------------
@@ -54,7 +55,6 @@ In summary, the script:
 1. Labels the Activity variable with descriptive names.
 1. Creates a second, independent tidy dataset, `MergedAvg`, based on the average -- the arithmetic [mean()](https://stat.ethz.ch/R-manual/R-devel/library/base/html/mean.html) -- of each variable for each subject and each activity. 
 
-----
 
 CodeBook.md
 ---------------
